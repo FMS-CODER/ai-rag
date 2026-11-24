@@ -1,0 +1,35 @@
+# Frontend dependencies and build output
+prototype/node_modules/
+prototype/dist/
+prototype/*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime data and secrets
+backend/data/
+.env
+.env.*
+!.env.example
+
+# Temporary and local-only files
+_norm31.txt
+*.log
+*.tmp
+
+# Local reference package, not part of the project source
+本科毕业设计（论文）工作规定及相关附件20150403/
+AGENTS.md
+docs/任务书/
+
+# Root duplicate of the taskbook kept under docs/
+毕业设计（论文）任务书-个人文档智能整理与语义检索系统（邵方明）.docx
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
